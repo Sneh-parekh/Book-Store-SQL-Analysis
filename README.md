@@ -1,16 +1,16 @@
-📚 Book Store SQL Analysis
-📌 Project Overview
+#📚 Book Store SQL Analysis
+##📌 Project Overview
 
 This project is an end-to-end SQL portfolio project built using MySQL, focused on analyzing a fictional Book Store database.
 The objective is to demonstrate real-world SQL skills such as database design, data loading, data cleaning, and business-focused analysis using basic to advanced SQL queries.
 
 This project is designed to showcase practical SQL knowledge for Data Analyst / Business Analyst roles.
 
-🗂️ Database Schema
+##🗂️ Database Schema
 
 The database consists of three relational tables:
 
-📘 Books
+###📘 Books
 
 Stores book-level details.
 
@@ -28,7 +28,7 @@ Price
 
 Stock
 
-👤 Customers
+###👤 Customers
 
 Stores customer information.
 
@@ -44,7 +44,7 @@ City
 
 Country
 
-🧾 Orders
+###🧾 Orders
 
 Stores transactional data.
 
@@ -60,13 +60,13 @@ Quantity
 
 Total_Amount
 
-🔗 Relationships
+##🔗 Relationships
 
 One customer → multiple orders
 
 One book → multiple orders
 
-🛠️ Tools & Technologies Used
+##🛠️ Tools & Technologies Used
 
 Database: MySQL 8.0
 
@@ -78,7 +78,7 @@ Data Source: CSV files
 
 Version Control: Git & GitHub
 
-📥 Data Import & Preparation
+##📥 Data Import & Preparation
 
 Imported CSV files using LOAD DATA INFILE
 
@@ -92,8 +92,8 @@ Ensured referential integrity with foreign keys
 
 This simulates a production-style data ingestion workflow.
 
-🔍 SQL Analysis Performed
-✅ Basic SQL Queries (15)
+##🔍 SQL Analysis Performed
+###✅ Basic SQL Queries (15)
 
 View all books and customers
 
@@ -109,7 +109,7 @@ Analyze order quantities and counts
 
 These queries support exploratory data analysis and validation.
 
-🚀 Advanced SQL Queries (10+)
+###🚀 Advanced SQL Queries (10+)
 
 Top customers by total spending
 
@@ -141,7 +141,7 @@ These queries answer real business questions commonly asked in analytics roles.
 ![Top Customers](Screenshots/output_1.png)
 
 
-📈 Business Insights
+##📈 Business Insights
 
 Some key insights derived from the analysis:
 
@@ -157,26 +157,7 @@ Repeat customers generate higher average order values compared to one-time buyer
 
 These insights demonstrate how SQL can support data-driven business decisions.
 
-📁 Repository Structure
-Book-Store-SQL-Analysis/
-│
-├── Data/
-│   ├── Books.csv
-│   ├── Customers.csv
-│   └── Orders.csv
-│
-├── Screenshots/
-│   ├── remaining_stock.png
-│   ├── monthly_revenue.png
-│   └── top_customers.png
-│
-├── books_store_analysis.sql   # Complete SQL script (schema + import + queries)
-└── README.md
-
-
-📌 The full SQL logic is intentionally kept in one file for easy execution.
-
-🎯 Key Skills Demonstrated
+##🎯 Key Skills Demonstrated
 
 Relational database design
 
